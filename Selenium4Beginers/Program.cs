@@ -6,7 +6,7 @@ namespace Selenium4Beginers
 {
     class Program
     {
-        public static void OpenPage()
+        public static void Main()
         {
             IWebDriver driver = new ChromeDriver(@"c:\libraries\");
             driver.Url = "http://www.google.com";
